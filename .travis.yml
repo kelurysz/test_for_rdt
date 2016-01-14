@@ -16,5 +16,9 @@ env:
     - $COVPYYAML=cov4-pyyaml,coveralls4
 install:
   - pip install tox
+  - pip install coveralls
 script:
   - tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d . | sed -e 's/pypypy/pypy/')-$COVPYYAML
+  coverage run --source=test_for_rdt setup.py test
+after_success:
+  coveralls
