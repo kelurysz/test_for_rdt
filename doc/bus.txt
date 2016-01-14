@@ -1,0 +1,3 @@
+Bus No.		Departure	Destination	Current Load	Status
+1		a		c		100		Full
+2		d		b		9		Available

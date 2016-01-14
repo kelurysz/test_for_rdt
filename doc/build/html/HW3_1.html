@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>HW3_1 module &mdash; ysz 0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ysz 0 documentation" href="index.html" />
+    <link rel="next" title="code" href="modules.html" />
+    <link rel="prev" title="Welcome to ysz’s documentation!" href="index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-HW3_1">
+<span id="hw3-1-module"></span><h1>HW3_1 module<a class="headerlink" href="#module-HW3_1" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="HW3_1.addBus">
+<code class="descclassname">HW3_1.</code><code class="descname">addBus</code><span class="sig-paren">(</span><em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.addBus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.addPerson">
+<code class="descclassname">HW3_1.</code><code class="descname">addPerson</code><span class="sig-paren">(</span><em>person</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.addPerson" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.addStation">
+<code class="descclassname">HW3_1.</code><code class="descname">addStation</code><span class="sig-paren">(</span><em>destinations</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.addStation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.afterOneTrip">
+<code class="descclassname">HW3_1.</code><code class="descname">afterOneTrip</code><span class="sig-paren">(</span><em>bus</em>, <em>person</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.afterOneTrip" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.bus_numberExist">
+<code class="descclassname">HW3_1.</code><code class="descname">bus_numberExist</code><span class="sig-paren">(</span><em>bus</em>, <em>num</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.bus_numberExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.delBus">
+<code class="descclassname">HW3_1.</code><code class="descname">delBus</code><span class="sig-paren">(</span><em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.delBus" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete a bus. If the bus is empty(load = 0), delete it.
+else, print a warning, and quit.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>bus</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.delPerson">
+<code class="descclassname">HW3_1.</code><code class="descname">delPerson</code><span class="sig-paren">(</span><em>person</em>, <em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.delPerson" title="Permalink to this definition">¶</a></dt>
+<dd><p>delete a passenger. If the passenger is on a bus, delete him/her from the bus, too.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>person</strong> &#8211; </li>
+<li><strong>bus</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.delStation">
+<code class="descclassname">HW3_1.</code><code class="descname">delStation</code><span class="sig-paren">(</span><em>destinations</em>, <em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.delStation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.print_bus">
+<code class="descclassname">HW3_1.</code><code class="descname">print_bus</code><span class="sig-paren">(</span><em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.print_bus" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>bus</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.print_des">
+<code class="descclassname">HW3_1.</code><code class="descname">print_des</code><span class="sig-paren">(</span><em>destinations</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.print_des" title="Permalink to this definition">¶</a></dt>
+<dd><p>print the information of destinations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>destinations</strong> &#8211; destination</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.print_person">
+<code class="descclassname">HW3_1.</code><code class="descname">print_person</code><span class="sig-paren">(</span><em>person</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.print_person" title="Permalink to this definition">¶</a></dt>
+<dd><p>print the information of passengers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>person</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.print_person_by_bus">
+<code class="descclassname">HW3_1.</code><code class="descname">print_person_by_bus</code><span class="sig-paren">(</span><em>person</em>, <em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.print_person_by_bus" title="Permalink to this definition">¶</a></dt>
+<dd><p>print passenger&#8217;s information by the bus they take.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>person</strong> &#8211; </li>
+<li><strong>bus</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.read_from_file">
+<code class="descclassname">HW3_1.</code><code class="descname">read_from_file</code><span class="sig-paren">(</span><em>destinations</em>, <em>bus</em>, <em>person</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.read_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>read all the information from files
+:param destinations:
+:param bus:
+:param person:
+:return:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.save_to_file">
+<code class="descclassname">HW3_1.</code><code class="descname">save_to_file</code><span class="sig-paren">(</span><em>destinations</em>, <em>bus</em>, <em>person</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.save_to_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>save all the information to files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>destinations</strong> &#8211; </li>
+<li><strong>bus</strong> &#8211; </li>
+<li><strong>person</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.station_nameExist">
+<code class="descclassname">HW3_1.</code><code class="descname">station_nameExist</code><span class="sig-paren">(</span><em>destinations</em>, <em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.station_nameExist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.tryBoardAgain">
+<code class="descclassname">HW3_1.</code><code class="descname">tryBoardAgain</code><span class="sig-paren">(</span><em>person</em>, <em>bus</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.tryBoardAgain" title="Permalink to this definition">¶</a></dt>
+<dd><p>see if there are anyone waiting can get on a bus</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>person</strong> &#8211; </li>
+<li><strong>bus</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="HW3_1.valid_input">
+<code class="descclassname">HW3_1.</code><code class="descname">valid_input</code><span class="sig-paren">(</span><em>str</em><span class="sig-paren">)</span><a class="headerlink" href="#HW3_1.valid_input" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to ysz&#8217;s documentation!</a></li>
+      <li>Next: <a href="modules.html" title="next chapter">code</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/HW3_1.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, ysz.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="_sources/HW3_1.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

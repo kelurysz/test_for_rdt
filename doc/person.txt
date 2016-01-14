@@ -1,0 +1,3 @@
+Name:		Departure:	Destination:	Status		Bus No.
+Harry Potter	a		c		Onboard		1
+James Bond	b		d		Waiting		None

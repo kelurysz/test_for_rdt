@@ -1,0 +1,7 @@
+HW3_1 module
+============
+
+.. automodule:: HW3_1
+    :members:
+    :undoc-members:
+    :show-inheritance:
