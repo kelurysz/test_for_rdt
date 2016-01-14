@@ -17,10 +17,6 @@ env:
 install:
   - pip install tox
   - pip install coveralls
-before_script:
-  - git clone https://github.com/kelur/test_for_rdt.git
-  - py.test code/HW3_1.py --cov=example
-  - cd ..
 script:
 #   - tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d . | sed -e 's/pypypy/pypy/')-$COVPYYAML
   - coverage run --source=test_for_rdt ../HW3_1.py test
