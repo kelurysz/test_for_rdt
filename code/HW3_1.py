@@ -423,19 +423,19 @@ while choice != 0:
                 print("We have these passengers:")
                 print_person(person)
                 print("How many PEOPLE do you want to add?  0 to quit.")
-                number = eval(input())
+                number = int(input())
                 for count in range(number):
                     addPerson(person)
             elif choice1 != 0:
                 print("No such choice. Input again, please.")
             print("press 0 to quit.")
-            choice1 = eval(input())
+            choice1 = int(input())
 
     # choose to delete
     elif choice == 2:
         print("What do you want to DELETE?\n"
               "1: station(s)\t2:bus(es)\t3:passenger(s)\t0:quit")
-        choice1 = eval(input())
+        choice1 = int(input())
         while choice1 != 0:
             # choose to delete station(s)
             if choice1 == 1:
@@ -467,7 +467,7 @@ while choice != 0:
             elif choice1 != 0:
                 print("No such choice. Input again, please.")
             print("press 0 to quit.")
-            choice1 = eval(input())
+            choice1 = int(input())
 
     # choose to start a trip
     elif choice == 3:
