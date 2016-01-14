@@ -19,6 +19,6 @@ install:
   - pip install coveralls
 script:
 #   - tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d . | sed -e 's/pypypy/pypy/')-$COVPYYAML
-  - coverage run --source=test_for_rdt ../HW3_1.py test
+  - coverage run --source=./HW3_1.py test
 after_success:
   - coveralls
