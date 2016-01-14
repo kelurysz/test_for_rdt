@@ -10,12 +10,8 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
-   HW3_1
-   modules
-   Person
-   Station
-   Bus
+   
+   
 
 
 Indices and tables
