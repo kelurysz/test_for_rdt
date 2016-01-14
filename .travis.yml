@@ -18,7 +18,6 @@ install:
   - pip install tox
   - pip install coveralls
 before_script:
-  - pip install -r test_requirements.txt
   - git clone https://github.com/kelur/test_for_rdt.git
   - py.test code/HW3_1.py --cov=example
   - cd ..
